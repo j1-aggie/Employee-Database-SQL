@@ -1,0 +1,58 @@
+-- Drop table if exists departments;
+-- Drop table if exists dept_emp;
+-- Drop table if exists dept_manager;
+-- Drop table if exists employees;
+-- Drop table if exists salaries;
+-- Drop table if exists titles;
+
+CREATE table departments (
+		dept_no VARCHAR(30) PRIMARY KEY NOT NULL,
+		dept_name VARCHAR(300) NOT NULL
+);
+
+CREATE table employees (
+	emp_no INT PRIMARY KEY NOT NULL, 
+	birth_date DATE NOT NULL, 
+	first_name VARCHAR(300) NOT NULL
+);
+
+CREATE table dept_emp (
+	emp_no INT NOT NULL, 
+	FOREIGN KEY (emp_no) REFERENCES employees(emp_no), 
+	dept_no VARCHAR(30) NOT NULL, 
+	FOREIGN KEY (dept_no) REFERENCES departments(dept_no),
+	from_data Date NOT NULL, 
+	to_date Date NOT NULL
+);
+
+CREATE table dept_manager (
+	dept_no VARCHAR(30) NOT NULL,
+	FOREIGN KEY (dept_no) REFERENCES departments(dept_no), 
+	emp_no INT NOT NULL, 
+	FOREIGN KEY (emp_no) REFERENCES employees(emp_no), 
+	from_date Date NOT NULL,
+	to_date Date NOT NULL
+);
+
+CREATE table salaries (
+	emp_no INT NOT NULL, 
+	FOREIGN KEY (emp_no) REFERENCES employees(emp_no), 
+	salary INT NOT NULL, 
+	from_date Date NOT NULL, 
+	to_date Date NOT NULL
+);
+
+CREATE table titles (
+	emp_no INT NOT NULL,
+	FOREIGN KEY (emp_no) REFERENCES employees(emp_no), 
+	title VARCHAR(300) NOT NULL,
+	from_date Date NOT NULL, 
+	to_date Date NOT NULL
+);
+
+Select * from departments;
+SELECT * from dept_emp;
+SELECT * from dept_manager;
+SELECT * from titles;
+SELECT * from salaries;
+SELECT * from employees;
