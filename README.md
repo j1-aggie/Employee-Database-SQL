@@ -35,6 +35,8 @@ In this assignment, I designed tables to hold data in the CSVs, imported the CSV
 Inspected the CSVs and sketched out an ERD of the tables. 
 Used a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
 
+
+
 #### Data Engineering
 
 * Used the information I had to create a table schema for each of the six CSV files. Specified data types, primary keys, foreign keys, and other constraints.
@@ -75,6 +77,8 @@ Once the database was completed and set up I completed the task below:
 ![Salary_Frequency](https://user-images.githubusercontent.com/66078772/95275827-32846080-080f-11eb-9797-bfe8b5d87643.png)
 
 3. Created a bar chart of average salary by title.
+
+![Average Salary](https://user-images.githubusercontent.com/66078772/95275897-5ba4f100-080f-11eb-9d72-1187b6d18201.png)
 
 ## Epilogue
 
