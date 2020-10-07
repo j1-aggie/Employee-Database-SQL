@@ -72,6 +72,8 @@ Once the database was completed and set up I completed the task below:
 
 2. Created a histogram to visualize the most common salary ranges for employees.
 
+![Salary_Frequency](https://user-images.githubusercontent.com/66078772/95275827-32846080-080f-11eb-9797-bfe8b5d87643.png)
+
 3. Created a bar chart of average salary by title.
 
 ## Epilogue
