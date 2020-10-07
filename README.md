@@ -35,6 +35,7 @@ In this assignment, I designed tables to hold data in the CSVs, imported the CSV
 Inspected the CSVs and sketched out an ERD of the tables. 
 Used a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
 
+![QuickDBD-HMK 9](https://user-images.githubusercontent.com/66078772/95275971-8e4ee980-080f-11eb-9b03-3ffa1892a4d4.png)
 
 
 #### Data Engineering
