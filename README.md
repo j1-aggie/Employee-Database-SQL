@@ -1,5 +1,3 @@
-# sql-challenge
-
 
 # SQL Homework - Employee Database: A Mystery in Two Parts
 
@@ -99,6 +97,4 @@ Searched the employee ID number 499942.
 
 * Ensured my repository had regular commits (i.e. 20+ commits) and a thorough README.md file
 
-### Copyright
 
-Trilogy Education Services © 2019. All Rights Reserved.
